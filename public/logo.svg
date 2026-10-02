@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 380" width="100%" height="100%">
+  <!-- Optional background texture can be handled by parent or transparent -->
+  <g id="design-links-logo">
+    <!-- "design" in deep navy blue -->
+    <g fill="#0e3579" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800">
+      <text x="65" y="160" font-size="110" letter-spacing="-3">design</text>
+    </g>
+
+    <!-- Two orange rectangular badges: CONSTRUCTION & PROPERTY -->
+    <g transform="translate(65, 195)">
+      <!-- CONSTRUCTION badge -->
+      <rect x="0" y="0" width="112" height="28" fill="#ea580c" rx="1.5" />
+      <text x="56" y="19" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="13" text-anchor="middle" letter-spacing="0.5">CONSTRUCTION</text>
+
+      <!-- PROPERTY badge -->
+      <rect x="0" y="32" width="78" height="28" fill="#ea580c" rx="1.5" />
+      <text x="39" y="51" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="13" text-anchor="middle" letter-spacing="0.5">PROPERTY</text>
+    </g>
+
+    <!-- "links" in deep navy blue with architectural house roof on the 'k' -->
+    <g fill="#0e3579">
+      <!-- l -->
+      <path d="M 184 175 L 198 175 L 198 255 L 184 255 Z" />
+
+      <!-- i -->
+      <path d="M 206 195 L 220 195 L 220 255 L 206 255 Z" />
+      <circle cx="213" cy="180" r="7.5" />
+
+      <!-- n -->
+      <path d="M 228 195 L 242 195 L 242 205 C 246 197 254 193 264 193 C 275 193 282 200 282 212 L 282 255 L 268 255 L 268 215 C 268 208 264 205 258 205 C 250 205 242 210 242 220 L 242 255 L 228 255 Z" />
+
+      <!-- k with architectural house roof pitch / gable apex -->
+      <!-- Vertical stem with house roof peak extending upwards past the normal x-height -->
+      <!-- Peak reaches y=80 with a steep architectural roof shape -->
+      <path d="M 290 270 L 304 270 L 304 125 L 314 110 L 324 125 L 324 270 L 310 270" fill="none" />
+      <path d="M 292 265 L 306 265 L 306 122 L 314 108 L 322 122 L 322 265 L 308 265 Z" />
+      <!-- Roof apex outline that mimics the logo's distinctive house roof stem -->
+      <path d="M 306 122 L 314 108 L 322 122 L 322 150 L 306 150 Z" />
+      <!-- Diagonal arms of the 'k' -->
+      <path d="M 306 220 L 332 195 L 348 195 L 322 223 L 350 265 L 334 265 L 314 232 L 306 240 Z" />
+
+      <!-- s -->
+      <path d="M 354 243 C 356 251 364 256 374 256 C 383 256 390 252 390 245 C 390 238 384 235 373 232 C 358 228 350 222 350 210 C 350 199 360 193 372 193 C 385 193 393 200 395 208 L 382 211 C 381 206 376 203 371 203 C 365 203 361 206 361 210 C 361 215 365 217 375 220 C 390 224 401 230 401 243 C 401 256 389 266 374 266 C 358 266 345 257 343 243 Z" />
+    </g>
+  </g>
+</svg>
